@@ -1,3 +1,10 @@
+![Built With](https://img.shields.io/badge/Built%20With-AWS-blue)
+![IaC](https://img.shields.io/badge/IaC-CloudFormation-orange)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+[![Connect on LinkedIn](https://img.shields.io/badge/LinkedIn-Said%20Noor-blue?logo=linkedin)](https://linkedin.com/in/said-noor-710592100)
+
+
+
 # CloudGuardX – Automated Threat Detection and Response on AWS
 
 **CloudGuardX** is a fully serverless AWS security solution designed to detect and auto-respond to high-severity threats. It uses GuardDuty, EventBridge, Lambda, SNS, and CloudWatch to create a real-time remediation pipeline.
