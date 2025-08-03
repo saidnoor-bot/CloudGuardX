@@ -1,22 +1,38 @@
-# CloudGuardX
-AWS Threat Detection and Automated Response Project
+# CloudGuardX – Automated Threat Detection and Response on AWS
+
+**CloudGuardX** is a fully serverless AWS security solution designed to detect and auto-respond to high-severity threats. It uses GuardDuty, EventBridge, Lambda, SNS, and CloudWatch to create a real-time remediation pipeline.
+
+## 🔐 Key Features
+
+- ✅ VPC isolation with NACLs and Subnets
+- ✅ GuardDuty threat detection
+- ✅ EventBridge rule for high-severity events
+- ✅ Lambda auto-response function
+- ✅ SNS email alerts
+- ✅ CloudWatch Logs monitoring
+- ✅ Visual screenshots of real AWS resources
+
 ## 📸 Project Screenshots
 
-### 1. VPC Setup
-![VPC Screenshot](CloudGuardX%20screenshots/vpc%20subnets.png)
+All screenshots are located in the [`CloudGuardX screenshots/`](./CloudGuardX%20screenshots/) folder.
 
-### 2. GuardDuty Findings
-![GuardDuty Screenshot](CloudGuardX%20screenshots/guard%20duty%20findings.png)
+| Stack              | Screenshot File                       |
+|-------------------|----------------------------------------|
+| VPC Setup         | `vpc subnets.png`                      |
+| GuardDuty Alerts  | `guard duty findings.png`, `second guard duty finding.png` |
+| CloudWatch Logs   | `cloudwatch log groups.png`, `eventlog-history.png` |
+| SNS Alerts        | `sns topic.png`                        |
+| Dashboard Summary | `Screenshot 2025-08-03 010612.png`     |
 
-### 3. CloudWatch Log Groups
-![CloudWatch Logs](CloudGuardX%20screenshots/cloudwatch%20log%20groups.png)
+## 🛠️ Technologies Used
 
-### 4. Event History
-![Event History](CloudGuardX%20screenshots/eventlog-history.png)
+- AWS Lambda
+- Amazon GuardDuty
+- Amazon EventBridge
+- Amazon SNS
+- Amazon CloudWatch
+- AWS CloudFormation
 
-### 5. SNS Topic
-![SNS Topic](CloudGuardX%20screenshots/sns%20topic.png)
+## 📁 Folder Structure
 
-### 6. Lambda Trigger
-![Lambda Trigger](CloudGuardX%20screenshots/Screenshot%202025-08-03%20010612.png)
 
